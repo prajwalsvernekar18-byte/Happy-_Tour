@@ -1,0 +1,69 @@
+#h2{
+    padding-left: 50px;
+    color: rgb(10, 7, 224);
+    font-size: 30px;
+}
+#h1{
+    text-align: left;
+    padding-left: 50px;
+    color: rgb(67, 23, 211);
+    font-size: 40px;
+    text-decoration: underline;
+}
+#p1{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+#about{
+    color: blue;
+    font-style: normal;
+}
+#tic{
+    color: blue;font-style: normal;
+}
+#pac{
+    color: blue;
+
+}
+#k2{
+    color: blue;
+    font-style: normal;
+}
+.ka{
+    border-radius: 100px;
+    border-shadow: 10px 10px 5px rgb(35, 26, 203);
+}
+.rj{
+    border-radius: 100px;
+    border-shadow: 10px 10px 5px rgb(35, 26, 203);
+}
+.ks{
+    border-radius: 100px;
+    border-shadow: 10px 10px 5px rgb(35, 26, 203);
+}
+.kd{
+    border-radius: 100px;
+    border-shadow: 10px 10px 5px rgb(35, 26, 203);
+}
+.va{
+    border-radius: 100px;
+    border-shadow: 10px 10px 5px rgb(35, 26, 203);
+}
+.pa{
+    border-radius: 100px;
+    border-shadow: 10px 10px 5px rgb(35, 26, 203);
+}
+#f{
+    color: rgb(12, 5, 209);
+}
+.frame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px rgb(35, 26, 203);
+}

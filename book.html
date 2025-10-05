@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <style>
+     .navbar{
+         list-style-type: none;
+        background-color: rgb(124, 121, 121);
+        text-align: center;
+        overflow: hidden;
+    }
+    .navbar a{
+        text-decoration: underline;
+        color: white;
+        padding: 14px 20px;
+        display: inline-block;
+    }
+    .navbar a:hover{
+        background-color: black;
+    }
+    .navbar li{
+        float: left;
+    }
+    #banner{
+        background-image: url(images.jpg);
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+</style>
+</head>
+<body>
+     <nav class="navbar">
+        
+       
+       <li> <a href="index.html"> Home</a></li>
+       <li> <a href="about_us.html">About Us</a></li>
+       <li> <a href="package.html"> Package</a></li>
+        <li><a href="contect.html"> Contect Us</a></li>
+        <li><a href="book.html" > Book Now</a></li>
+        
+</nav>
+    <form >
+    <h1 style="text-decoration: underline;">Book Your Trip</h1>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" name="destination" required><br><br>
+    <label for="departure">Departure Date:</label>
+    <input type="date" id="departure" name="departure" required><br><br>
+    <label for="return">Return Date:</label>
+    <input type="date" id="return" name="return" required><br><br>
+    <label for="travelers">Number of Travelers:</label>
+    <input type="number" id="travelers" name="travelers" min="1" required><br><br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
